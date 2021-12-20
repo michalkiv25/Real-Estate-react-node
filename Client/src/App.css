@@ -1,0 +1,93 @@
+/*Same design for all components-> start  */
+#title {
+  color: blue;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#title:hover {
+  color: #535e67;
+}
+
+#from {
+  margin-top: 100px;
+}
+
+#submit {
+  margin: 25px 550px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  color: blue;
+}
+
+div#par,
+#par {
+  margin-top: 25px;
+  text-align: center;
+  color: #535e67;
+}
+
+/* footer - start */
+
+footer a.text-light:hover {
+  color: blue !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#titleFooter {
+  font-size: 20px;
+}
+
+#noTitle {
+  font-size: 15px;
+}
+
+#styleA {
+  margin-left: -10px;
+  font-size: 15px;
+}
+
+#grid {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .cizgi {
+  border-right: 1px solid #535e67;
+}
+
+/* footer - end */
+/*Same design for all components -> end  */
+
+#submitCardDelete {
+  width: 100px;
+  margin-left: 30px;
+}
+
+#submitCardDelete:hover,
+#submitAbout:hover,
+#submitCardEditing:hover {
+  color: blue;
+}
+
+#submitAbout {
+  width: 150px;
+  margin: 50px 45%;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  footer .cizgi {
+    border-right: none;
+  }
+}
